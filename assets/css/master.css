@@ -1,0 +1,96 @@
+/* small */
+
+
+/* @media(min-width:768px){} */
+
+
+/* UTILITY */
+
+.inline-block {
+    display: inline-block;
+}
+
+.vertical-align-m {
+    vertical-align: middle;
+}
+
+
+/* padding */
+
+.px-10 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.py-20 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.py-80 {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
+
+/* margin */
+
+.mt-90 {
+    margin-top: 9rem;
+}
+
+.mt-20 {
+    margin-top: 2rem;
+}
+
+
+/* background color */
+
+.bg-dark-blue {
+    background-color: #2C3E50;
+}
+
+.bg-green {
+    background-color: #1ABC9C;
+}
+
+
+/* color */
+
+.txt-white {
+    color: #FFFFFF !important;
+}
+
+
+/* height */
+
+
+/* serigrapy */
+
+
+/* --------------------------------- */
+
+img {
+    width: 30rem;
+}
+
+.star>i {
+    font-size: 2.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.line-star {
+    width: 10rem;
+    border-top: 3px solid;
+}
+
+
+/* medium */
+
+@media(min-width:992px) {}
+
+
+/* large */
+
+@media(min-width:1200px) {}
