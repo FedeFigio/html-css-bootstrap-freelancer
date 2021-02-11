@@ -80,6 +80,10 @@
     font-size: 20px;
 }
 
+.txt-size-sm-24 {
+    font-size: 24px;
+}
+
 .txt-size-sm-36 {
     font-size: 36px;
 }
@@ -145,6 +149,40 @@ body {
     background-color: #FFFFFF;
     color: #000000;
     border: 2px solid #FFFFFF;
+}
+
+.contact-me form {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.form-control {
+    border: 0px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+.form-group {
+    border-bottom: 1px solid #e9ecef;
+    padding: 4rem 0;
+}
+
+.form-control {
+    padding: 0;
+    color: rgb(73, 80, 87);
+}
+
+#contact-me form button {
+    padding: 16px 28px;
+    background-color: #1ABC9C;
+    border: 0;
+}
+
+#contact-me form button:hover {
+    background-color: #239981;
 }
 
 
