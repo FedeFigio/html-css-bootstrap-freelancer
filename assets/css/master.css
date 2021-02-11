@@ -43,6 +43,10 @@
     margin-top: 2rem;
 }
 
+.mt-40 {
+    margin-top: 4rem;
+}
+
 
 /* background color */
 
@@ -95,8 +99,14 @@ body {
     max-width: 720px;
 }
 
-img {
+#jumbotron img {
     width: 30rem;
+}
+
+.star {
+    height: 60px;
+    line-height: 60px;
+    margin-bottom: 3rem;
 }
 
 .star>i {
@@ -123,21 +133,26 @@ img {
     border-radius: 10px;
 }
 
+#about .btn {
+    background-color: transparent;
+    border: 2px solid;
+    font-size: 20px;
+    padding: 16px 28px;
+    border-radius: 8px;
+}
+
+#about .btn:hover {
+    background-color: #FFFFFF;
+    color: #000000;
+    border: 2px solid #FFFFFF;
+}
+
 
 /* medium */
 
 @media(min-width:992px) {
     .container {
         max-width: 960px;
-    }
-}
-
-
-/* large */
-
-@media(min-width:1200px) {
-    .container {
-        max-width: 1140px;
     }
     /* utility */
     /* typography */
@@ -155,5 +170,14 @@ img {
     }
     .txt-size-lg-48 {
         font-size: 48px !important;
+    }
+}
+
+
+/* large */
+
+@media(min-width:1200px) {
+    .container {
+        max-width: 1140px;
     }
 }
