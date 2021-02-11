@@ -12,16 +12,18 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
     <!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous"> -->
     <link rel="stylesheet" href="assets/css/master.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
     <title>Bootstrap Freelancer</title>
 </head>
 
 <body>
     <header>
         <!-- navbar -->
-        <nav class="navbar navbar-default navbar-fixed-top ">
-            <div class="container-fluid bg-dark-blue py-20">
+        <nav class="navbar navbar-default navbar-fixed-top bg-dark-blue">
+            <div class="container  py-20">
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header ">
                     <button type="button" class="navbar-toggle collapsed txt-white" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -30,24 +32,25 @@
                           <span class="icon-bar"></span>
                           <span class="icon-bar"></span>
                         </button>
-                    <a class="navbar-brand txt-white" href="#">START BOOTSTRAP</a>
+                    <a class="navbar-brand txt-white f-weight-700 txt-size-sm-20 txt-size-lg-28" href="#">START BOOTSTRAP</a>
                 </div>
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav navbar-right txt-white">
-                        <li><a class="txt-white" href="#">Link</a></li>
-                        <li><a class="txt-white" href="#">Link</a></li>
-                        <li><a class="txt-white" href="#">Link</a></li>
+                    <ul class="nav navbar-nav navbar-right txt-white f-weight-700 txt-size-sm-16 ">
+                        <li><a class="txt-white" href="#">PROFILO</a></li>
+                        <li><a class="txt-white" href="#">ABOUT</a></li>
+                        <li><a class="txt-white" href="#">CONTACT</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
     <main>
-        <section>
-            <div class="container bg-green py-80 mt-90 text-center txt-white ">
+        <!-- jumbotron -->
+        <section class="bg-green">
+            <div class="container  py-50 mt-90 text-center txt-white ">
                 <img src="assets/img/avataaars.svg" alt="avatar">
-                <h1>START BOOTSTRAP</h1>
+                <h1 class="f-weight-700 txt-size-sm-44 txt-size-lg-64">START BOOTSTRAP</h1>
                 <!-- star -->
                 <div class="star mt-20">
                     <div class="line-star inline-block vertical-align-m ">
@@ -56,8 +59,65 @@
                     <div class="line-star inline-block vertical-align-m ">
                     </div>
                 </div>
-                <h3>Graphic Artist - Web Designer - Illustrator</h3>
+                <h3 class=" txt-size-sm-20 txt-size-lg-24">Graphic Artist - Web Designer - Illustrator</h3>
             </div>
+        </section>
+        <!-- portfolio -->
+        <section class="py-50" id="portfolio">
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class=" ">
+                            <h2 class="f-weight-700 txt-size-sm-36 txt-size-lg-48">PORTFOLIO</h2>
+                        </div>
+                    </div>
+                    <div class="col-sm-12">
+                        <div class=" ">
+                            <div class="star mt-20">
+                                <div class="line-star inline-block vertical-align-m ">
+                                </div>
+                                <i class="fas fa-star inline-block vertical-align-m "></i>
+                                <div class="line-star inline-block vertical-align-m ">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="content ">
+                            <img src="assets/img/cabin.png" alt="cabin">
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="content ">
+                            <img src="assets/img/cabin.png" alt="cabin">
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="content ">
+                            <img src="assets/img/cabin.png" alt="cabin">
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="content">
+                            <img src="assets/img/cabin.png" alt="cabin">
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="content">
+                            <img src="assets/img/cabin.png" alt="cabin">
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="content">
+                            <img src="assets/img/cabin.png" alt="cabin">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- about -->
+        <section>
+
         </section>
     </main>
     <footer>

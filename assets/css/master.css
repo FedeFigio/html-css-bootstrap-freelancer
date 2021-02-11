@@ -27,9 +27,9 @@
     padding-bottom: 2rem;
 }
 
-.py-80 {
-    padding-top: 8rem;
-    padding-bottom: 8rem;
+.py-50 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 }
 
 
@@ -62,20 +62,45 @@
 }
 
 
-/* height */
-
-
 /* serigrapy */
+
+.f-weight-700 {
+    font-weight: 700;
+}
+
+.txt-size-sm-16 {
+    font-size: 16px;
+}
+
+.txt-size-sm-20 {
+    font-size: 20px;
+}
+
+.txt-size-sm-36 {
+    font-size: 36px;
+}
+
+.txt-size-sm-44 {
+    font-size: 44px;
+}
 
 
 /* --------------------------------- */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    max-width: 720px;
+}
 
 img {
     width: 30rem;
 }
 
 .star>i {
-    font-size: 2.5rem;
+    font-size: 32px;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
 }
@@ -85,12 +110,50 @@ img {
     border-top: 3px solid;
 }
 
+#portfolio .content {
+    max-width: 400px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 3rem 0;
+    border-radius: 10px;
+}
+
+#portfolio .content img {
+    width: 100%;
+    border-radius: 10px;
+}
+
 
 /* medium */
 
-@media(min-width:992px) {}
+@media(min-width:992px) {
+    .container {
+        max-width: 960px;
+    }
+}
 
 
 /* large */
 
-@media(min-width:1200px) {}
+@media(min-width:1200px) {
+    .container {
+        max-width: 1140px;
+    }
+    /* utility */
+    /* typography */
+    .txt-size-lg-16 {
+        font-size: 16px;
+    }
+    .txt-size-lg-24 {
+        font-size: 24px;
+    }
+    .txt-size-lg-28 {
+        font-size: 28px;
+    }
+    .txt-size-lg-64 {
+        font-size: 64px !important;
+    }
+    .txt-size-lg-48 {
+        font-size: 48px !important;
+    }
+}
