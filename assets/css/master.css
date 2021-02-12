@@ -14,6 +14,11 @@
     vertical-align: middle;
 }
 
+.fit-content {
+    height: fit-content;
+    position: relative;
+}
+
 
 /* padding */
 
@@ -34,6 +39,10 @@
 
 
 /* margin */
+
+.mb-24 {
+    margin-bottom: 24px;
+}
 
 .mt-90 {
     margin-top: 9rem;
@@ -67,6 +76,10 @@
 
 
 /* serigrapy */
+
+.f-weight-300 {
+    font-weight: 300;
+}
 
 .f-weight-700 {
     font-weight: 700;
@@ -122,6 +135,30 @@ body {
 .line-star {
     width: 10rem;
     border-top: 3px solid;
+}
+
+#portfolio .overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #1ABC9C;
+    top: 0;
+    left: 0;
+    border-radius: 10px;
+    opacity: 0;
+}
+
+#portfolio .overlay:hover {
+    opacity: .8;
+}
+
+.overlay i {
+    font-size: 72px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 #portfolio .content {
@@ -185,6 +222,19 @@ body {
     background-color: #239981;
 }
 
+footer i {
+    font-size: 20px;
+    border: 2px solid;
+    padding: 1.3rem 1.5rem;
+    border-radius: 50%;
+    width: 100%;
+}
+
+footer .copiright {
+    background-color: #1A252F;
+    padding: 1rem;
+}
+
 
 /* medium */
 
@@ -194,19 +244,19 @@ body {
     }
     /* utility */
     /* typography */
-    .txt-size-lg-16 {
+    .txt-size-md-16 {
         font-size: 16px;
     }
-    .txt-size-lg-24 {
+    .txt-size-md-24 {
         font-size: 24px;
     }
-    .txt-size-lg-28 {
+    .txt-size-md-28 {
         font-size: 28px;
     }
-    .txt-size-lg-64 {
+    .txt-size-md-64 {
         font-size: 64px !important;
     }
-    .txt-size-lg-48 {
+    .txt-size-md-48 {
         font-size: 48px !important;
     }
 }
